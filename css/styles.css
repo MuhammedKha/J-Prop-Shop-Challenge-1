@@ -24,7 +24,7 @@ header {
     position: absolute;
     top: 10px;
     left: 10px;
-    width: 330px; /* Adjust as needed for larger screens */
+    width: 320px; /* Adjust as needed for larger screens */
     height: auto;
 }
 
@@ -132,7 +132,7 @@ section {
 /* Media query for responsive design adjustments */
 @media (max-width: 768px) {
     .logo {
-        width: 40px; /* Smaller logo for mobile screens */
+        width: 45px; /* Smaller logo for mobile screens */
     }
 
     .product-image {
