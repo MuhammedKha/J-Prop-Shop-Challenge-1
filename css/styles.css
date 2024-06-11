@@ -7,16 +7,16 @@ body, h1, h2, p, ul {
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background-color: #f4f4f4; /* Light gray background for better readability */
-    color: #333; /* Dark gray text for contrast */
+    background-color: #f4f4f4; 
+    color: #333; 
 }
 
 /* Header styling for a consistent and professional look */
 header {
-    background: #35424a; /* Dark blue background for header */
-    color: #ffffff; /* White text for header for better contrast */
-    padding: 20px 0; /* Padding for spacing */
-    text-align: center; /* Centered text for alignment */
+    background: #35424a; 
+    color: #ffffff; 
+    padding: 20px 0; 
+    text-align: center; 
     position: relative;
 }
 
@@ -24,13 +24,13 @@ header {
     position: absolute;
     top: 10px;
     left: 10px;
-    width: 100px; /* Adjust as needed */
+    width: 150px; /* Adjust as needed */
     height: auto;
 }
 
 /* Navigation styling for a clean and accessible menu */
 header nav ul {
-    list-style: none; /* Remove default list styling */
+    list-style: none; 
     margin: 0;
     padding: 0;
 }
@@ -38,13 +38,13 @@ header nav ul {
 /* Inline display for navigation items */
 header nav ul li {
     display: inline;
-    margin-right: 20px; /* Spacing between menu items */
+    margin-right: 20px; 
 }
 
 /* Link styling for navigation */
 header nav ul li a {
-    color: #ffffff; /* White text for links */
-    text-decoration: none; /* Remove underline for links */
+    color: #ffffff; 
+    text-decoration: none; 
 }
 
 /* Hover effect for links */
@@ -54,33 +54,33 @@ header nav ul li a:hover {
 
 /* Main content styling for proper spacing and alignment */
 main {
-    padding: 20px; /* Padding for spacing */
+    padding: 20px; 
 }
 
 /* Heading color for main content */
 main h2 {
-    color: #35424a; /* Dark blue for headings */
+    color: #35424a; 
 }
 
 /* Hero section styling for the main banner */
 #hero {
-    text-align: center; /* Centered text */
-    color: #fff; /* White text for contrast */
-    padding: 100px 20px; /* Padding for spacing */
+    text-align: center; 
+    color: #fff; 
+    padding: 100px 20px; 
 }
 
 /* Hero image styling for responsiveness */
 .hero-image {
     width: 100%;
     height: auto;
-    max-width: 600px; /* Ensure the image does not exceed 600px width */
-    border-radius: 10px; /* Rounded corners for better aesthetics */
-    margin-top: 20px; /* Spacing above the image */
+    max-width: 600px; 
+    border-radius: 10px; 
+    margin-top: 20px; 
 }
 
 /* Font sizes for hero section */
 #hero h2 {
-    font-size: 3em; /* Large heading for emphasis */
+    font-size: 3em; 
 }
 
 #hero p {
@@ -90,43 +90,43 @@ main h2 {
 /* Button styling for call-to-action buttons */
 .button {
     display: inline-block;
-    padding: 10px 20px; /* Padding for click area */
-    background: #e8491d; /* Orange background for visibility */
-    color: #fff; /* White text for contrast */
-    text-decoration: none; /* Remove underline */
-    border-radius: 5px; /* Rounded corners */
-    margin-top: 10px; /* Spacing above button */
+    padding: 10px 20px; 
+    background: #e8491d; 
+    color: #fff; 
+    text-decoration: none; 
+    border-radius: 5px; 
+    margin-top: 10px; 
 }
 
 /* Hover effect for buttons */
 .button:hover {
-    background: #cf3e17; /* Darker orange on hover for feedback */
+    background: #cf3e17; 
 }
 
 /* Section styling for consistent look */
 section {
-    margin-bottom: 20px; /* Spacing below sections */
-    padding: 10px; /* Padding inside sections */
-    border: 1px solid #ddd; /* Light gray borders */
-    border-radius: 5px; /* Rounded corners */
-    background-color: #fff; /* White background */
+    margin-bottom: 20px; 
+    padding: 10px; 
+    border: 1px solid #ddd; 
+    border-radius: 5px; 
+    background-color: #fff; 
 }
 
 /* Product image styling for responsiveness */
 .product-image {
     width: 100%;
     height: auto;
-    max-width: 100px; /* Limit the width */
-    border-radius: 10px; /* Rounded corners */
+    max-width: 100px; 
+    border-radius: 10px; 
 }
 
 /* About and Contact image styling */
 .about-image, .contact-image {
     width: 100%;
     height: auto;
-    max-width: 600px; /* Ensure the image does not exceed 600px width */
-    border-radius: 10px; /* Rounded corners for better aesthetics */
-    margin-top: 20px; /* Spacing above the image */
+    max-width: 600px; 
+    border-radius: 10px; 
+    margin-top: 20px; 
 }
 
 /* Media query for responsive design adjustments */
@@ -134,8 +134,8 @@ section {
     .product-image {
         float: none;
         display: block;
-        margin: 0 auto 20px auto; /* Center images and add spacing */
-        width: 80px; /* Adjust width for smaller screens */
+        margin: 0 auto 20px auto; 
+        width: 80px; 
     }
 
     .hero-image, .about-image, .contact-image {
@@ -156,19 +156,19 @@ section {
 #products {
     display: flex;
     flex-direction: column;
-    padding: 20px; /* Padding for spacing */
+    padding: 20px; 
 }
 
 #products .product {
     text-align: left;
     width: 100%;
-    margin-bottom: 20px; /* Spacing below products */
+    margin-bottom: 20px; 
 }
 
 #products .product img {
     width: 100%;
-    max-width: 100px; /* Limit the width */
-    border-radius: 10px; /* Rounded corners */
+    max-width: 100px; 
+    border-radius: 10px; 
 }
 
 /* Testimonials section styling for user feedback */
@@ -180,43 +180,43 @@ section {
 
 /* Blockquote styling for testimonials */
 #testimonials blockquote {
-    border-left: 10px solid #e8491d; /* Orange border for emphasis */
-    padding-left: 10px; /* Padding inside blockquote */
-    font-style: italic; /* Italic text for quotes */
-    margin: 10px 0; /* Spacing above and below */
+    border-left: 10px solid #e8491d; 
+    padding-left: 10px; 
+    font-style: italic; 
+    margin: 10px 0; 
 }
 
 #testimonials cite {
     display: block;
-    text-align: right; /* Right-aligned citations */
-    color: #555; /* Gray text for citations */
+    text-align: right; 
+    color: #555; 
 }
 
 /* Footer styling for consistent appearance */
 footer {
-    background: #35424a; /* Dark blue background */
-    color: #ffffff; /* White text */
-    text-align: center; /* Centered text */
-    padding: 10px 0; /* Padding for spacing */
-    position: fixed; /* Fixed at the bottom */
-    width: 100%; /* Full width */
-    bottom: 0; /* Align at the bottom */
+    background: #35424a; 
+    color: #ffffff; 
+    text-align: center; 
+    padding: 10px 0; 
+    position: fixed; 
+    width: 100%; 
+    bottom: 0; 
 }
 
 /* Accessibility and best practices for links */
 a:focus, a:hover {
-    outline: 2px solid #fff; /* White outline on focus for accessibility */
-    background-color: #000; /* Black background on hover */
+    outline: 2px solid #fff; 
+    background-color: #000; 
 }
 
 nav ul li a {
-    padding: 5px 10px; /* Padding for clickable area */
-    border-radius: 5px; /* Rounded corners */
+    padding: 5px 10px; 
+    border-radius: 5px; 
 }
 
 /* Ensuring images are lazy loaded */
 img {
     display: block;
     max-width: 100%;
-    height: auto; /* Ensure responsive images */
+    height: auto; 
 }
