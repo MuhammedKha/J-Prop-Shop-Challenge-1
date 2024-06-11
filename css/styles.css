@@ -17,6 +17,15 @@ header {
     color: #ffffff; /* White text for header for better contrast */
     padding: 20px 0; /* Padding for spacing */
     text-align: center; /* Centered text for alignment */
+    position: relative;
+}
+
+.logo {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 50px; /* Adjust as needed */
+    height: auto;
 }
 
 /* Navigation styling for a clean and accessible menu */
