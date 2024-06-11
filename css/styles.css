@@ -111,6 +111,15 @@ section {
     border-radius: 10px; /* Rounded corners */
 }
 
+/* About and Contact image styling */
+.about-image, .contact-image {
+    width: 100%;
+    height: auto;
+    max-width: 600px; /* Ensure the image does not exceed 600px width */
+    border-radius: 10px; /* Rounded corners for better aesthetics */
+    margin-top: 20px; /* Spacing above the image */
+}
+
 /* Media query for responsive design adjustments */
 @media (max-width: 768px) {
     .product-image {
@@ -120,7 +129,7 @@ section {
         width: 80px; /* Adjust width for smaller screens */
     }
 
-    .hero-image {
+    .hero-image, .about-image, .contact-image {
         max-width: 100%; /* Ensure image fits container */
         width: 100%;
     }
