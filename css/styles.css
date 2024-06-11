@@ -24,7 +24,7 @@ header {
     position: absolute;
     top: 10px;
     left: 10px;
-    width: 150px; /* Adjust as needed */
+    width: 250px; /* Adjust as needed for larger screens */
     height: auto;
 }
 
@@ -131,6 +131,10 @@ section {
 
 /* Media query for responsive design adjustments */
 @media (max-width: 768px) {
+    .logo {
+        width: 100px; /* Smaller logo for mobile screens */
+    }
+
     .product-image {
         float: none;
         display: block;
@@ -149,6 +153,12 @@ section {
 
     #hero p {
         font-size: 1em; /* Adjust font size for smaller screens */
+    }
+}
+
+@media (min-width: 769px) {
+    .logo {
+        width: 200px; /* Larger logo for larger screens */
     }
 }
 
